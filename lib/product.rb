@@ -1,9 +1,10 @@
 class Product
-	attr_reader :title
+	attr_reader :title, :price
 	@@products = []
 
 	def initialize options={}
 		@title = options[:title]
+		@price = options[:price]
 		add_to_products
 	end
 
