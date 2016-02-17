@@ -6,3 +6,6 @@ end
 
 class OutOfStockError < StandardError
 end
+
+class NoRecordFoundError < StandardError
+end

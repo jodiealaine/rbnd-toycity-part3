@@ -18,11 +18,12 @@ class Customer
 
 	def self.find_by_name customer_name
 		@@customers.any? {|customer| return customer if customer.name == customer_name}
+		raise NoRecordFoundError, "'#{customer_name}' does not exist."
 	end
 
 	private
 
 	def add_to_customers
-		@@customers.any? {|customer| customer.name.include?(@name)} ? (raise DuplicateCustomerError, "#{self.name} already exists.") : @@customers << self
+		@@customers.any? {|customer| customer.name.include?(@name)} ? (raise DuplicateCustomerError, "'#{self.name}' already exists.") : @@customers << self
 	end
 end

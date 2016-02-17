@@ -11,7 +11,7 @@ class Transaction
 	end
 
 	def make_transaction
-		check_stock? ? update_product_stock : (raise OutOfStockError, "#{@product.title} is out of stock.") 
+		check_stock? ? update_product_stock : (raise OutOfStockError, "'#{@product.title}' is out of stock.") 
 	end
 
 	def check_stock?
@@ -28,6 +28,7 @@ class Transaction
 
 	def self.find transaction_id
 		@@transactions.each {|transaction| return transaction if transaction.id == transaction_id }
+		raise NoRecordFoundError, "'#{transaction_id}' does not exist."
 	end
 
 	private

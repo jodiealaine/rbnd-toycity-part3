@@ -1,0 +1,131 @@
+commit 63abe4dc536a83afbaf2314f4c217744af0735c4
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 15:50:51 2016 +0000
+
+    Add ability to find a transaction by transaction id
+
+commit 588ff607186bbabc3a440064aed57ad47e9c7c3b
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 15:39:38 2016 +0000
+
+    Add the abillity for a customer to purchase a product
+
+commit 4a4007ba9a28c6b9616c84f27839cd70a6ac0195
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 14:27:23 2016 +0000
+
+    Add ability to update stock to reflect transactions
+
+commit abb846c51f06ffb419be38bf349de35ccf2b7082
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:50:49 2016 +0000
+
+    Add ability to set a transaction id
+
+commit 5421df1e83eca1e05803d5a8512ce7281cf10f88
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:40:27 2016 +0000
+
+    Add ability to add a transaction
+
+commit 34f50576dcf23867e099992b9436796f11f022c5
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:32:41 2016 +0000
+
+    Add ability to find a customer by name
+
+commit c16d5919db197ff2829ee2c5ad2a9701e9709ca4
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:30:18 2016 +0000
+
+    Add ability to prevent duplicate customers being added
+
+commit fe8c898cb00703c5568328d341aba691c4bd35cf
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:23:00 2016 +0000
+
+    Add ability to get the number of customers
+
+commit d22e3efefad5f68a77002c21fe152b534bc93b01
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:19:30 2016 +0000
+
+    Add ability to create new customers
+
+commit 9026ffedcc14eb4cd756884c8aed1cc6f3893063
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:16:11 2016 +0000
+
+    Add ability to get a list of all products in stock
+
+commit dbf700f3b9479fc66f602e2e6b675f3211d2da20
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:11:39 2016 +0000
+
+    Add ability to check if product is in stock
+
+commit 2187f3f2be21c91aa04176f8b4768f6c8fc52984
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:09:04 2016 +0000
+
+    Add ability to get the stock of a product
+
+commit 38831c46ca96784471951dd8ec550c248101df73
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:08:06 2016 +0000
+
+    Add ability to get the price of a product
+
+commit a881a435828df8c96a69fabcf6ccbb777ec8365d
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 13:03:15 2016 +0000
+
+    Add ability to find a product by title
+
+commit e7b589b25c2271faf88fb22ae7b6da56fe5b261d
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 01:12:56 2016 +0000
+
+    Add ability to prevent duplicate products being added
+
+commit 167b007a4dc7af056b12884877b80ca48335c4c8
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 00:24:00 2016 +0000
+
+    Add ability to create and count products
+
+commit 14c21e10423a3f57bf17931b8ccdd803e240d5d1
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Tue Jan 12 01:23:47 2016 -0800
+
+    Output return values to the command line
+
+commit 50ecd4c9f92a4a76d414cb22a39a25c34e902525
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Fri Jan 8 12:02:31 2016 -0800
+
+    Removed zip file requirement
+
+commit f500dd1d9d903c1b9d49b3c9665f6a011616c546
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Thu Jan 7 09:04:43 2016 -0800
+
+    Fixed typo
+
+commit 1557be82014b78b0773f8f7bc129712e3a324286
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Wed Jan 6 02:17:14 2016 -0500
+
+    Fix typos
+
+commit ec4113db8edbd9c69e15dc85b21875c3472ca3fa
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:12:59 2016 -0500
+
+    Add LICENSE
+
+commit 1e66c23ba283ea433767f58d9a9e796282046d5c
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:09:18 2016 -0500
+
+    Initial commit

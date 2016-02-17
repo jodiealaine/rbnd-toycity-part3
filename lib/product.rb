@@ -15,6 +15,7 @@ class Product
 
 	def self.find_by_title product_title
 		@@products.each {|product| return product if product.title == product_title }
+		raise NoRecordFoundError, "'#{product_title}' does not exist."
 	end
 
 	def in_stock?
@@ -32,6 +33,6 @@ class Product
 	private
 
 	def add_to_products
-		@@products.any? {|product| product.title.include?(@title)} ? (raise DuplicateProductError, "#{@title} already exists.") : @@products << self 
+		@@products.any? {|product| product.title.include?(@title)} ? (raise DuplicateProductError, "'#{@title}' already exists.") : @@products << self 
 	end
 end
