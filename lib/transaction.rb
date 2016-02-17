@@ -1,12 +1,13 @@
 class Transaction
 	attr_reader :customer, :product, :id
 	@@id = 0
+	@@transactions = []
 	
 	def initialize customer, product
 		@customer = customer
 		@product = product
 		@id = transaction_id 	
-		make_transaction
+		add_transaction if make_transaction
 	end
 
 	def make_transaction
@@ -21,10 +22,22 @@ class Transaction
 		@product.deduct_stock 1
 	end
 
+	def self.all
+		@@transactions
+	end	
+
+	def self.find transaction_id
+		@@transactions.each {|transaction| return transaction if transaction.id == transaction_id }
+	end
+
 	private
 
 	def transaction_id
 		@@id += 1
+	end
+
+	def add_transaction
+		@@transactions << self
 	end
 
 end
