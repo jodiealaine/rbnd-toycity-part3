@@ -47,8 +47,12 @@ puts walter.name # Should return "Walter Latimer"
 # TRANSACTIONS
 
 transaction = Transaction.new(walter, nanoblock)
+#transaction_2 = Transaction.new(walter, nanoblock)
+#transaction_3 = Transaction.new(walter, nanoblock)
 
-# puts transaction.id # Should return 1
+puts transaction.id # Should return 1
+#puts transaction_3.id # Should return 3
+
 # puts transaction.product == nanoblock # Should return true
 # puts transaction.product == firehouse # Should return false
 # puts transaction.customer == walter # Should return true
