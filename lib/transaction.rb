@@ -26,6 +26,10 @@ class Transaction
 		@@transactions
 	end	
 
+	def self.purchases_by_customer customer
+		@@transactions.map {|transaction| transaction if transaction.customer == customer}
+	end
+
 	def self.find transaction_id
 		@@transactions.each {|transaction| return transaction if transaction.id == transaction_id }
 		raise NoRecordFoundError, "'#{transaction_id}' does not exist."

@@ -21,6 +21,10 @@ class Customer
 		raise NoRecordFoundError, "'#{customer_name}' does not exist."
 	end
 
+	def purchases 
+		Transaction.purchases_by_customer self
+	end
+
 	private
 
 	def add_to_customers

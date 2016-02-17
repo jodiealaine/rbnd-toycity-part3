@@ -85,3 +85,7 @@ puts transaction2.product == nanoblock # Should return true
 
 # Transaction.find 4444
 # Should return NoRecordFoundError: '4444' does not exist.
+
+# CUSTOMER PURCHASE RECORD
+
+puts walter.purchases #Should return a list of Walters purchases

@@ -1,14 +1,21 @@
-How long did you spend working on this project?
+# How long did you spend working on this project?
+
 3 hours.
-What was the most rewarding challenge you conquered?
+
+# What was the most rewarding challenge you conquered?
 finishing this project!
-What two additional features did you build? Why?
+
+# What two additional features did you build? Why?
+
 1. Add NoRecordError notifications for errors where a record doesn't exist
 - There were cases that could have failed without giving an informative error. 
 -- Customer.find_by_name
 -- Product.find_by_title
 -- Transaction.find
+
 2. Add ability to get purchase history
 - As a customer I would like to retreive my purchase history. This could be used for a dashboard/report in a future feature.
-Where do you still have room to grow?
+
+# Where do you still have room to grow?
+
 Making my code and choice of ruby features more succint.
