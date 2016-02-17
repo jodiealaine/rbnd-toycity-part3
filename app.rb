@@ -22,8 +22,8 @@ puts firehouse.title # Should return 'LEGO Firehouse Headquarter'
 
 puts nanoblock.price # Should return 49.99
 puts nanoblock.stock # Should return 12
-# puts nanoblock.in_stock? # Should return true
-# puts firehouse.in_stock? # Should return false
+puts nanoblock.in_stock? # Should return true
+puts firehouse.in_stock? # Should return false
 
 # products_in_stock = Product.in_stock
 # Should return an array of all products with a stock greater than zero

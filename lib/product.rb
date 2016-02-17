@@ -17,6 +17,10 @@ class Product
 		@@products.each {|product| return product if product.title == product_title }
 	end
 
+	def in_stock?
+		@stock > 0
+	end
+
 	private
 
 	def add_to_products
