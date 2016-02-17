@@ -1,3 +1,15 @@
+commit f4b37971658f9b259ab4fab7806fac82bc3d9536
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 18:41:06 2016 +0000
+
+    Add ability to get customer purchase history
+
+commit d5223db0b39654e331649a5a4f3d22fd3d4d1681
+Author: Jodie Alaine Parker <me@jodiealaine.com>
+Date:   Wed Feb 17 18:27:06 2016 +0000
+
+    Add ability to raise a NoRecordFoundError notification
+
 commit 63abe4dc536a83afbaf2314f4c217744af0735c4
 Author: Jodie Alaine Parker <me@jodiealaine.com>
 Date:   Wed Feb 17 15:50:51 2016 +0000
