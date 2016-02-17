@@ -21,6 +21,10 @@ class Product
 		@stock > 0
 	end
 
+	def deduct_stock amount
+		@stock -= amount
+	end
+
 	def self.in_stock
 		@@products.map {|product| product if product.in_stock? }
 	end
