@@ -15,6 +15,6 @@ class Customer
 	private
 
 	def add_to_customers
-		@@customers << self
+		@@customers.any? {|customer| customer.name.include?(@name)} ? (raise DuplicateCustomerError, "#{self.name} already exists.") : @@customers << self
 	end
 end

@@ -28,6 +28,6 @@ class Product
 	private
 
 	def add_to_products
-		@@products.any? {|t| t.title.include?(@title)} ? (raise DuplicateProductError, "#{@title} already exists.") : @@products << self 
+		@@products.any? {|product| product.title.include?(@title)} ? (raise DuplicateProductError, "#{@title} already exists.") : @@products << self 
 	end
 end
