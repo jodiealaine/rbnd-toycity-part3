@@ -1,20 +1,16 @@
 class Transaction
-	attr_reader :customer, :product, :id, :status
+	attr_reader :customer, :product, :id
 	@@id = 0
 	
 	def initialize customer, product
 		@customer = customer
 		@product = product
-		@id = transaction_id
-		@status = transaction_successful?  	
+		@id = transaction_id 	
+		make_transaction
 	end
 
-	def transaction_successful?
-		true unless complete_transaction == false
-	end
-
-	def complete_transaction
-		check_stock? ? update_product_stock : false 
+	def make_transaction
+		check_stock? ? update_product_stock : (raise OutOfStockError, "#{@product.title} is out of stock.") 
 	end
 
 	def check_stock?
